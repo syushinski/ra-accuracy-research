@@ -1,43 +1,9 @@
-Decision Tree Extraction (DTExtract)
-=====
+I used a lot of the same code from https://github.com/obastani/dtextract.
+Specifically, python/dtextract/examples/runCsv.py. Along with the given example files, I made more
+to go with the extra datasets. To run all of the example files you can run all.py, by simply doing
 
-DTExtract is a tool for extracting model explanations in the form of decision trees. More precisely, given
+      $ cd python
+      $ python -m dtextract.examples.all
 
-- blackbox access to a model (i.e., for a given input, produce the corresponding output),
-- a sampling distribution over the input space,
-
-then DTExtract constructs a decision tree approximating that model.
-
-Table of Contents
-=====
-0. Prerequisites
-1. Setting Up DTExtract
-2. Using DTExtract
-
-Prerequisites
-=====
-
-DTExtract has been tested using Python 2.7. DTExtract depends on numpy, scipy, scikit-learn, and pandas.
-
-Using DTExtract
-=====
-
-See `python/dtextract/examples/iris.py` for an example using a dataset from the UCI machine learning repository with the goal of classifying Iris flowers. The dataset is located at `data/iris.zip` ([download link](https://archive.ics.uci.edu/ml/datasets/Iris)). To run this example, run
-
-    $ cd python
-    $ python -m dtextract.examples.iris
-
-Similarly, see `python/dtextract/examples/diabetes.py` for an example using a diabetes readmissions dataset. The dataset is located at `data/dataset_diabetes.zip` ([download link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)). To run this example, run
-
-    $ cd python
-    $ python -m dtextract.examples.diabetes
-
-Finally, see `python/dtextract/examples/wine.py` for an example using a dataset from the UCI machine learning repository with the goal of classifying wines. The dataset is located at `data/wine.zip` ([download link](https://archive.ics.uci.edu/ml/datasets/Wine)). To run this example, run
-
-    $ cd python
-    $ python -m dtextract.examples.wine
-
-You can run all of the examples by doing
-
-    $ cd python
-    $ python -m dtextract.examples.all
+You can also modify the code in runCsv to make it run CORELS and expertsys, as
+long as you have expertsys in the same folder, and as long as you have CORElS installed via pip.
