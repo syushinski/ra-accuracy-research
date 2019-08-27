@@ -80,6 +80,7 @@ def readlogs():
     df = df.sort_values(by = "Name")
     print df
 
+    #csv name change this so things don't get overwritten
     df.to_csv(cwd + "/" + "accuracyrel.csv", index=None)
 if __name__ == "__main__":
     readlogs()
