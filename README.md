@@ -9,8 +9,10 @@ You can also modify the code in runCsv to make it run CORELS and expertsys, as l
 
 You can change lines 340, 346, and 356 of runCsv.py to either run CORELS, expertsys, or DTExtract. You can follow the comments for guidance in that. For example, you'll see:
 
-      nVals = len(names)
+      340 nVals = len(names)
 
-      curVals = runCsvSingle(path, hasHeader, dataTypes, isClassify, delim_whitespace, distType)
+      346 curVals = runCsvSingle(path, hasHeader, dataTypes, isClassify, delim_whitespace, distType)
 
-      lg("Averaged over 10 trials: " + names[i] + str(vals[i]), INFO)
+      356 lg("Averaged over 10 trials: " + names[i] + str(vals[i]), INFO)
+
+names can be changed to corels and sklearn to run corels and expertsys respectively and runCsvSingle can be changed to runCsvCorels and runCsvSklearn to run corels and sklearn respectively. You need to change both the names variable and the function call in order to correctly run corels, sklearn, and DTExtract. 
