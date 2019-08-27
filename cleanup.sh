@@ -15,3 +15,7 @@
 # limitations under the License.
 
 rm -rf tmp
+
+cd ./python/dtextract
+
+rm -rf expertsys
