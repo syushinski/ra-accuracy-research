@@ -15,4 +15,4 @@ You can change lines 340, 346, and 356 of runCsv.py to either run CORELS, expert
 
       356 lg("Averaged over 10 trials: " + names[i] + str(vals[i]), INFO)
 
-names can be changed to corels and sklearn to run corels and expertsys respectively and runCsvSingle can be changed to runCsvCorels and runCsvSklearn to run corels and sklearn respectively. You need to change both the names variable and the function call in order to correctly run corels, sklearn, and DTExtract. 
+names can be changed to corels and sklearn to run corels and expertsys respectively and runCsvSingle can be changed to runCsvCorels and runCsvSklearn to run corels and sklearn respectively. You need to change both the names variable and the function call in order to correctly run corels, sklearn, and DTExtract.
