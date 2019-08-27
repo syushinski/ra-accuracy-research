@@ -14,8 +14,8 @@
 
 # Main code
 
-from runCompare import *
+from runCsv import *
 from ..data.consts import *
 
 if __name__ == "__main__":
-    runCompare(CAR_PATH, CAR_HAS_HEADER, CAR_DATA_TYPES, CAR_IS_CLASSIFY, CAR_N_DATA_MATRIX_COLS, CAR_OUTPUT)
+    runCsv(CAR_PATH, CAR_HAS_HEADER, CAR_DATA_TYPES, CAR_IS_CLASSIFY, CAR_DELIM_WHITESPACE, CAR_OUTPUT)

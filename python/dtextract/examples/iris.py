@@ -15,7 +15,8 @@
 # Main code
 
 from runCompare import *
+from runCsv import *
 from ..data.consts import *
 
 if __name__ == "__main__":
-    runCompare(IRIS_PATH, IRIS_HAS_HEADER, IRIS_DATA_TYPES, IRIS_IS_CLASSIFY, IRIS_N_DATA_MATRIX_COLS, IRIS_OUTPUT)
+    runCsv(IRIS_PATH, IRIS_HAS_HEADER, IRIS_DATA_TYPES, IRIS_IS_CLASSIFY, IRIS_DELIM_WHITESPACE, IRIS_OUTPUT)

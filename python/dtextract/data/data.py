@@ -15,7 +15,6 @@
 import random
 import numpy as np
 import pandas as pd
-
 from ..util.log import *
 
 CAT = 0 # categorical data type
@@ -79,7 +78,7 @@ def constructDataMatrix(df, res, catFeats):
     # Step 2: Construct covariate and response data frames
     covDf = df.iloc[:,covCols]
     resDf = df.iloc[:,resCols]
-    
+
     X = np.array(covDf.values)
     y = np.array(resDf.values[:,0])
 
@@ -98,11 +97,11 @@ def constructDataMatrix(df, res, catFeats):
 #  hasHeader : bool (whether the dataset has a header to ignore)
 #  dataTypes : [int] (categorical, numeric, or identifier)
 #  return : pandas.DataFrame
-def readCsv(path, hasHeader, dataTypes):
+def readCsv(path, hasHeader, dataTypes, delim_whitespace, CORELS=False):
     # Step 1: Parse the CSV
-    
+
     log('Reading file: ' + path, INFO)
-    
+
     # Step 1a: Skip the first row if it is the header
     skiprows = 1 if hasHeader else 0
 
@@ -115,7 +114,7 @@ def readCsv(path, hasHeader, dataTypes):
     usecols = [] # list of columsn to use
     res = None
     isCatRes = None
-    
+
     for i in range(len(dataTypes)):
         if not _isSkip(dataTypes[i]):
             # Step 1c: Append the name
@@ -145,14 +144,21 @@ def readCsv(path, hasHeader, dataTypes):
         raise Exception('No response variable!')
 
     # Step 1g: Parse the CSV
-    df = pd.read_csv(path, header=None, skiprows=skiprows, usecols=usecols, names=names, dtype=dtype, na_values=['?'])
-
+    try:
+        df = pd.read_csv(path, delim_whitespace=delim_whitespace, header=None, skiprows=skiprows, usecols=usecols, names=names, dtype=dtype, na_values=['?']) if delim_whitespace else pd.read_csv(path, header=None, skiprows=skiprows, usecols=usecols, names=names, dtype=dtype, na_values=['?'])
+    except:
+        df = pd.read_csv(path, sep=';', header=None, skiprows=skiprows, usecols=usecols, names=names, dtype=dtype, na_values=['?'])
     log('Done!', INFO)
     log('Rows read: ' + str(len(df)), INFO)
 
     # Step 2: Impute missing values for floating points
     for i in impute:
         df[i].fillna(df[i].mean(), inplace=True)
+        if CORELS:
+            for j in range(len(df[i])):
+                df[i] = (df[i] > df[i].mean()) * 1
+
+
 
     # Step 3: Convert categorical to indicator
     df = pd.get_dummies(df, columns=dummies, dummy_na=True)

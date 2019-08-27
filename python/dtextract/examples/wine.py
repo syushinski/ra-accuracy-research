@@ -14,8 +14,10 @@
 
 # Main code
 
+
 from runCompare import *
+from runCsv import *
 from ..data.consts import *
 
 if __name__ == "__main__":
-    runCompare(WINE_PATH, WINE_HAS_HEADER, WINE_DATA_TYPES, WINE_IS_CLASSIFY, WINE_N_DATA_MATRIX_COLS, WINE_OUTPUT)
+    runCsv(WINE_PATH, WINE_HAS_HEADER, WINE_DATA_TYPES, WINE_IS_CLASSIFY, WINE_DELIM_WHITESPACE, WINE_OUTPUT)

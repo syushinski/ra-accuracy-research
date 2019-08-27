@@ -1,0 +1,5765 @@
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000004
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.7560000000000003
+Computed leaf score: 0.6193333333333335
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3601828058421321
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.26413405761756353
+Computed leaf score: 0.24972674538387826
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.6398171941578682
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.49521850827819
+Computed leaf score: 0.49521850827819
+Current gain: 0.13666666666666683
+Current score: 0.7560000000000003
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09645342290662481
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.06571693214038038
+Computed leaf score: 0.052020546087639646
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2637293829355073
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.21028022799391116
+Computed leaf score: 0.21028022799391116
+Current gain: 0.014407312233685271
+Current score: 0.7704073122336856
+Current size: 5
+Internal node index: 3
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04169125285360849
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.025959753443513554
+Computed leaf score: 0.025959753443513554
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05476217005301632
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04110813565313092
+Computed leaf score: 0.04110813565313092
+Current gain: 0.013696386052740733
+Current score: 0.7841036982864263
+Current size: 7
+Internal node index: 2
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2078301995855531
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.13578239706256134
+Computed leaf score: 0.1245595662849415
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.43198699457231515
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.36402104075960423
+Computed leaf score: 0.36402104075960423
+Current gain: 0.0
+Current score: 0.7841036982864263
+Current size: 9
+Internal node index: 5
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09259750661950124
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.07247298184752964
+Computed leaf score: 0.07247298184752964
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.11523269296605183
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0757462901763514
+Computed leaf score: 0.060612396500143266
+Current gain: 0.011222830777619847
+Current score: 0.7953265290640462
+Current size: 11
+Internal node index: 12
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.053668740817960345
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04017999729237964
+Computed leaf score: 0.037639676893662856
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.06156395214809149
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04108367740015972
+Computed leaf score: 0.038539034044705274
+Current gain: 0.015133893676208134
+Current score: 0.8104604227402543
+Current size: 13
+Internal node index: 26
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02771560879848754
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.019068338853359425
+Computed leaf score: 0.01526206191170047
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03384834334960395
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.025747306507932076
+Computed leaf score: 0.025747306507932076
+Current gain: 0.002544643355454443
+Current score: 0.8130050660957088
+Current size: 15
+Internal node index: 53
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.013559495632128169
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.01064872390309799
+Computed leaf score: 0.010232899370379392
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.014156113166359374
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.009720531040900104
+Computed leaf score: 0.009343034689797186
+Current gain: 0.0038062769416589547
+Current score: 0.8168113430373677
+Current size: 17
+Internal node index: 25
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03346709961881352
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.029361802065572394
+Computed leaf score: 0.028067740880311606
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.020201641199146816
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.012538485304270458
+Computed leaf score: 0.011083967137931887
+Current gain: 0.0025403203987167874
+Current score: 0.8193516634360845
+Current size: 19
+Internal node index: 52
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.008010879171577143
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0057251083146204656
+Computed leaf score: 0.0055862530756464615
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.012190762027569677
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008232827955952055
+Computed leaf score: 0.006973115879769854
+Current gain: 0.0014545181663385715
+Current score: 0.820806181602423
+Current size: 21
+Internal node index: 51
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.030577943209611127
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.027173598865607756
+Computed leaf score: 0.027173598865607756
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0028891564092023967
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.002590610246918149
+Computed leaf score: 0.001974256879621638
+Current gain: 0.0012940611852607885
+Current score: 0.8221002427876838
+Current size: 23
+Internal node index: 106
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004718628063250335
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0029318409032995417
+Computed leaf score: 0.0029727356798477113
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.007472133964319339
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.005325140805238249
+Computed leaf score: 0.005325140805238249
+Current gain: 0.0012597120761822008
+Current score: 0.823359954863866
+Current size: 25
+Internal node index: 104
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0016959282908320216
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0016744465324814825
+Computed leaf score: 0.0016687934381787093
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0011932281183703755
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.000987992882010671
+Computed leaf score: 0.0008853752638308186
+Current gain: 0.000616353367296511
+Current score: 0.8239763082311625
+Current size: 27
+Internal node index: 107
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004677525925033332
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0031838359796393548
+Computed leaf score: 0.002488443792117733
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.008881969707094838
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008029300615213734
+Computed leaf score: 0.008029300615213734
+Current gain: 0.00041582453271859707
+Current score: 0.8243921327638811
+Current size: 29
+Internal node index: 215
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.001777321872599142
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0012073939921190171
+Computed leaf score: 0.0012559741233033935
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00290020405243419
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0018735318178724869
+Computed leaf score: 0.0018735318178724869
+Current gain: 0.0006953921875216219
+Current score: 0.8250875249514027
+Current size: 31
+Internal node index: 108
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.010881538999323702
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.007958032188172067
+Computed leaf score: 0.007958032188172067
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00327457416703567
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00229656801581435
+Computed leaf score: 0.001977842796889545
+Current gain: 0.0003774963511029173
+Current score: 0.8254650213025057
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 218
+Leaf node index: 105
+Leaf node index: 210
+Leaf node index: 209
+Leaf node index: 216
+Leaf node index: 54
+Leaf node index: 4
+Leaf node index: 432
+Leaf node index: 214
+Leaf node index: 8
+Leaf node index: 7
+Leaf node index: 217
+Leaf node index: 103
+Leaf node index: 11
+Leaf node index: 6
+Leaf node index: 213
+Leaf node index: 431
+Decision tree:
+(x[10] <= 0.17691603302955627
+    (x[35] <= 0.2308182641863823
+        (x[28] <= 0.6266480982303619
+            0
+            1)
+        0)
+    (x[10] <= 0.24523157626390457
+        (x[35] <= 0.23691989481449127
+            1
+            (x[11] <= 0.22131362557411194
+                (x[20] <= 0.6163782477378845
+                    (x[44] <= 0.4268634021282196
+                        0
+                        (x[36] <= 0.41602711379528046
+                            1
+                            0))
+                    (x[25] <= 0.6896031498908997
+                        1
+                        (x[30] <= 0.3505759686231613
+                            1
+                            0)))
+                (x[8] <= 0.1616879478096962
+                    (x[21] <= 0.659432977437973
+                        (x[35] <= 0.46383093297481537
+                            (x[28] <= 0.5885199010372162
+                                0
+                                1)
+                            0)
+                        (x[30] <= 0.562251627445221
+                            1
+                            0))
+                    1)))
+        1))
+Node count: 33
+DTExtract Relative training score: 0.838709677419
+DTExtract Relative CV score: 0.777777777778
+DTExtract Relative test score: 0.809523809524
+DTExtract Training score: 0.838709677419
+DTExtract CV score: 0.68253968254
+DTExtract Test score: 0.666666666667
+Training greedy decision tree, best of: 1
+Done!
+Node count: 23
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.7301587301587301
+GreedyTree Test score: 0.7619047619047619
+MLP Training score: 1.0
+MLP CV score: 0.7777777777777778
+MLP Test score: 0.8571428571428571
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7777777777777778
+Random Forest Test score: 0.7619047619047619
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000007
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6600000000000005
+Computed leaf score: 0.568666666666667
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.34044687355414543
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.23468137816999093
+Computed leaf score: 0.21085009702120072
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.6595531264458552
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.4616871885120986
+Computed leaf score: 0.4616871885120986
+Current gain: 0.09133333333333349
+Current score: 0.6600000000000005
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.12365869915373931
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.07370058469562862
+Computed leaf score: 0.07370058469562862
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2167881744004061
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.1610013508547016
+Computed leaf score: 0.16504806344350917
+Current gain: 0.023831281148790212
+Current score: 0.6838312811487907
+Current size: 5
+Internal node index: 2
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.28207137001318233
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.18297029534855092
+Computed leaf score: 0.15758387204736451
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3774817564326728
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.29493907902606165
+Computed leaf score: 0.29493907902606165
+Current gain: 0.0
+Current score: 0.6838312811487907
+Current size: 7
+Internal node index: 5
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0911583007761092
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.059435212106023205
+Computed leaf score: 0.05894903450188395
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.19091306923707313
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.12752993025036485
+Computed leaf score: 0.13122091625561494
+Current gain: 0.0253864233011864
+Current score: 0.709217704449977
+Current size: 9
+Internal node index: 11
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05095583222983091
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.033664819826508284
+Computed leaf score: 0.02690467941735072
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04020246854627828
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03288561927085563
+Computed leaf score: 0.032832015979460595
+Current gain: 0.0004861776041392568
+Current score: 0.7097038820541163
+Current size: 11
+Internal node index: 23
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02180454251075392
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.014187488993663884
+Computed leaf score: 0.014652652567226636
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.029151289719076993
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.018753996385939532
+Computed leaf score: 0.018753996385939532
+Current gain: 0.006760140409157563
+Current score: 0.7164640224632738
+Current size: 13
+Internal node index: 24
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0013853004261352858
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0008505744616470655
+Computed leaf score: 0.0006917266794502194
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.038817168120143
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03281344611756088
+Computed leaf score: 0.032839324229640976
+Current gain: 5.360329139503239e-05
+Current score: 0.7165176257546688
+Current size: 15
+Internal node index: 49
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0008029554297360955
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0005513627284187856
+Computed leaf score: 0.0004812379542218333
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00058234499639919
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003870653076066616
+Computed leaf score: 0.0003742537176858795
+Current gain: 0.00015884778219684608
+Current score: 0.7166764735368657
+Current size: 17
+Internal node index: 99
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0002073222552899917
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00014070270392347437
+Computed leaf score: 0.00014070270392347437
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005956331744461039
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00039867713809592554
+Computed leaf score: 0.00039867713809592554
+Current gain: 7.012477419695228e-05
+Current score: 0.7167465983110627
+Current size: 19
+Internal node index: 100
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00036974968563884225
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00026449427512698515
+Computed leaf score: 0.00026449427512698515
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00021259531076034781
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0001242973916912167
+Computed leaf score: 0.00011054956159538086
+Current gain: 1.2811589920782088e-05
+Current score: 0.7167594099009835
+Current size: 21
+Internal node index: 202
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 5.3543782437129545e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.2554619721774766e-05
+Computed leaf score: 3.2554619721774766e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0001590515283232183
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00010073263460470491
+Computed leaf score: 9.320419559740592e-05
+Current gain: 1.3747830095835835e-05
+Current score: 0.7167731577310794
+Current size: 23
+Internal node index: 406
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.026924541248054e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.3620932917186924e-05
+Computed leaf score: 1.3620932917186924e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00013878228291073778
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 8.697023062406234e-05
+Computed leaf score: 8.697023062406234e-05
+Current gain: 7.528439007298992e-06
+Current score: 0.7167806861700867
+Current size: 25
+Internal node index: 6
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.1471559622500456
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.10555987692069937
+Computed leaf score: 0.10820868424120018
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.23032579418262725
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.1911704091715806
+Computed leaf score: 0.1911704091715806
+Current gain: 0.0
+Current score: 0.7167806861700867
+Current size: 27
+Internal node index: 405
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.4994490982389726e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.8012696501308864e-05
+Computed leaf score: 1.8012696501308864e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.854929145473981e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.6311161851141346e-05
+Computed leaf score: 1.5359518802650017e-05
+Current gain: 0.0
+Current score: 0.7167806861700867
+Current size: 29
+Internal node index: 812
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.728331064882074e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.0796308051963356e-05
+Computed leaf score: 9.54038747814905e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.126598080591906e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 7.270312946753099e-06
+Computed leaf score: 7.345419485459227e-06
+Current gain: 9.516430484913289e-07
+Current score: 0.7167816378131352
+Current size: 31
+Internal node index: 1625
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.442403270439047e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.504446932326259e-06
+Computed leaf score: 5.504446932326259e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.840907378381694e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.4047413773173415e-06
+Computed leaf score: 5.192559600236182e-06
+Current gain: 1.2559205738143054e-06
+Current score: 0.716782893733709
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 3252
+Leaf node index: 201
+Leaf node index: 199
+Leaf node index: 814
+Leaf node index: 14
+Leaf node index: 48
+Leaf node index: 3
+Leaf node index: 200
+Leaf node index: 811
+Leaf node index: 813
+Leaf node index: 3251
+Leaf node index: 1626
+Leaf node index: 50
+Leaf node index: 47
+Leaf node index: 13
+Leaf node index: 12
+Leaf node index: 4
+Decision tree:
+(x[10] <= 0.16941915452480316
+    (x[30] <= 0.4732169806957245
+        1
+        0)
+    (x[20] <= 0.610969752073288
+        (x[27] <= 0.687334418296814
+            (x[36] <= 0.5117427408695221
+                (x[21] <= 0.5154549181461334
+                    0
+                    1)
+                (x[30] <= 0.2561196982860565
+                    (x[15] <= 0.663548082113266
+                        (x[21] <= 0.4651499092578888
+                            0
+                            1)
+                        (x[9] <= 0.30802083015441895
+                            0
+                            (x[4] <= 0.03831925988197327
+                                (x[9] <= 0.3527781218290329
+                                    0
+                                    (x[19] <= 0.37021832168102264
+                                        (x[36] <= 0.6737581491470337
+                                            1
+                                            0)
+                                        0))
+                                (x[21] <= 0.630247563123703
+                                    0
+                                    1))))
+                    0))
+            1)
+        (x[10] <= 0.2621363252401352
+            1
+            1)))
+Node count: 33
+DTExtract Relative training score: 0.758064516129
+DTExtract Relative CV score: 0.809523809524
+DTExtract Relative test score: 0.761904761905
+DTExtract Training score: 0.758064516129
+DTExtract CV score: 0.698412698413
+DTExtract Test score: 0.666666666667
+Training greedy decision tree, best of: 1
+Done!
+Node count: 31
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.746031746031746
+GreedyTree Test score: 0.7619047619047619
+MLP Training score: 1.0
+MLP CV score: 0.7936507936507936
+MLP Test score: 0.7142857142857143
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7301587301587301
+Random Forest Test score: 0.9523809523809523
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000007
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6460000000000005
+Computed leaf score: 0.5480000000000004
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.28235200479649514
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.20084639274524022
+Computed leaf score: 0.19595229132876762
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.7176479952035055
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.4683849248694879
+Computed leaf score: 0.4683849248694879
+Current gain: 0.09800000000000009
+Current score: 0.6460000000000005
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.18575374435990896
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.1525657420342719
+Computed leaf score: 0.1525657420342719
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09659826043658616
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.061243297116795624
+Computed leaf score: 0.04990910122556952
+Current gain: 0.0048941014164725904
+Current score: 0.6508941014164731
+Current size: 5
+Internal node index: 4
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.062105884421922566
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03552456588933971
+Computed leaf score: 0.03552456588933971
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0344923760146636
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.025892276928340813
+Computed leaf score: 0.025892276928340813
+Current gain: 0.011334195891226105
+Current score: 0.6622282973076992
+Current size: 7
+Internal node index: 10
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.020200535500916512
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.011770178685200687
+Computed leaf score: 0.011770178685200687
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.014291840513747085
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.014091754746554625
+Computed leaf score: 0.014091754746554625
+Current gain: 0.0
+Current score: 0.6622282973076992
+Current size: 9
+Internal node index: 3
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04792986201597968
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.031058550586354833
+Computed leaf score: 0.026872675970292605
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.1378238823439293
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.12358208116838994
+Computed leaf score: 0.12330643340370209
+Current gain: 0.0
+Current score: 0.6622282973076992
+Current size: 11
+Internal node index: 7
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04341528724864366
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.029290847130418254
+Computed leaf score: 0.02648332522167263
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004514574767336018
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004340011209665692
+Computed leaf score: 0.0041594282189722515
+Current gain: 0.004185874616062228
+Current score: 0.6664141719237614
+Current size: 13
+Internal node index: 15
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03475834235744604
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.02442352856316542
+Computed leaf score: 0.024191806280782446
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.008656944891197619
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.005580843806525399
+Computed leaf score: 0.005147996561965518
+Current gain: 0.002807521908745624
+Current score: 0.6692216938325071
+Current size: 15
+Internal node index: 32
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004490462646048873
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.002673322095281096
+Computed leaf score: 0.002269180457136697
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004166482245148745
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.003069308587259576
+Computed leaf score: 0.0030331990744682864
+Current gain: 0.0004328472445598811
+Current score: 0.6696545410770669
+Current size: 17
+Internal node index: 65
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0013861322394443972
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0008788078398077479
+Computed leaf score: 0.0009000618674792286
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.003104330406604476
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0017239381524676858
+Computed leaf score: 0.0017156599380500736
+Current gain: 0.0004041416381443991
+Current score: 0.6700586827152113
+Current size: 19
+Internal node index: 8
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.13556617774656934
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.12200955997191242
+Computed leaf score: 0.12291333449022286
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0022577045973599503
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.002122242321518353
+Computed leaf score: 0.001453961760699808
+Current gain: 0.0002756477646878447
+Current score: 0.6703343304798991
+Current size: 21
+Internal node index: 18
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0013449769571514639
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0013306305362751816
+Computed leaf score: 0.0012956611353892437
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0009127276402084855
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00079346456188791
+Computed leaf score: 0.00079346456188791
+Current gain: 0.0006682805608185451
+Current score: 0.6710026110407177
+Current size: 23
+Internal node index: 31
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.030795087111537407
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.022357233242976157
+Computed leaf score: 0.022357233242976157
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.003963255245908634
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0023621001265615458
+Computed leaf score: 0.002129589152134906
+Current gain: 0.00023172228238297482
+Current score: 0.6712343333231007
+Current size: 25
+Internal node index: 64
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.002258814222982138
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0012287949373022832
+Computed leaf score: 0.0012318066895995927
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0017044410229264959
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.001147656955437174
+Computed leaf score: 0.001147656955437174
+Current gain: 0.00023251097442663965
+Current score: 0.6714668442975273
+Current size: 27
+Internal node index: 16
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004135555128980432
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004105227724701242
+Computed leaf score: 0.004085928467432667
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00037901963835558695
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0002668298254023332
+Computed leaf score: 0.0002668298254023332
+Current gain: 0.0001805829906934408
+Current score: 0.6716474272882208
+Current size: 29
+Internal node index: 66
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0010529876696079854
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0006521503633772122
+Computed leaf score: 0.0005714213087072667
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0031134945755407605
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0024866443343318874
+Computed leaf score: 0.0024866443343318874
+Current gain: 3.6109512791289346e-05
+Current score: 0.6716835368010121
+Current size: 31
+Internal node index: 133
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0002766558286391028
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00018941702400823905
+Computed leaf score: 0.0001829617213399933
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0007763318409688826
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00044975491320130604
+Computed leaf score: 0.00046683421370262147
+Current gain: 8.072905466994552e-05
+Current score: 0.671764265855682
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 37
+Leaf node index: 33
+Leaf node index: 132
+Leaf node index: 267
+Leaf node index: 130
+Leaf node index: 63
+Leaf node index: 9
+Leaf node index: 21
+Leaf node index: 2
+Leaf node index: 34
+Leaf node index: 134
+Leaf node index: 22
+Leaf node index: 38
+Leaf node index: 129
+Leaf node index: 268
+Leaf node index: 131
+Leaf node index: 17
+Decision tree:
+(x[11] <= 0.16412705928087234
+    (x[20] <= 0.72099769115448
+        (x[35] <= 0.3770844638347626
+            (x[44] <= 0.4618496894836426
+                (x[9] <= 0.22447922080755234
+                    (x[27] <= 0.9975239038467407
+                        0
+                        (x[31] <= 0.490926131606102
+                            0
+                            1))
+                    (x[31] <= 0.47345127165317535
+                        (x[23] <= 0.6777603924274445
+                            0
+                            1)
+                        (x[27] <= 0.8309135437011719
+                            (x[23] <= 0.5634994506835938
+                                0
+                                1)
+                            1)))
+                (x[36] <= 0.4758501946926117
+                    1
+                    0))
+            (x[45] <= 0.533486396074295
+                0
+                (x[36] <= 0.4071289002895355
+                    1
+                    0)))
+        (x[9] <= 0.23069214820861816
+            0
+            (x[38] <= 0.5163174271583557
+                1
+                1)))
+    1)
+Node count: 33
+DTExtract Relative training score: 0.766129032258
+DTExtract Relative CV score: 0.730158730159
+DTExtract Relative test score: 0.714285714286
+DTExtract Training score: 0.766129032258
+DTExtract CV score: 0.730158730159
+DTExtract Test score: 0.761904761905
+Training greedy decision tree, best of: 1
+Done!
+Node count: 25
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.6825396825396826
+GreedyTree Test score: 0.7142857142857143
+MLP Training score: 1.0
+MLP CV score: 0.6825396825396826
+MLP Test score: 0.8571428571428571
+Random Forest Training score: 1.0
+Random Forest CV score: 0.8095238095238095
+Random Forest Test score: 0.7619047619047619
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000002
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6626666666666667
+Computed leaf score: 0.5553333333333335
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.49357929104400544
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.359654776740732
+Computed leaf score: 0.359654776740732
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.5064207089559948
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.3315367574631912
+Computed leaf score: 0.29034787313477034
+Current gain: 0.10733333333333328
+Current score: 0.6626666666666667
+Current size: 3
+Internal node index: 2
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.16818020725838653
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.10382324794751062
+Computed leaf score: 0.1035990076711661
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3382405016976082
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.248043034578246
+Computed leaf score: 0.22391521212381665
+Current gain: 0.04118888432842088
+Current score: 0.7038555509950877
+Current size: 5
+Internal node index: 6
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.26252631217571887
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.20232027791675403
+Computed leaf score: 0.20232027791675403
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.07571418952188934
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.05617992862524189
+Computed leaf score: 0.04845708129400918
+Current gain: 0.02412782245442935
+Current score: 0.727983373449517
+Current size: 7
+Internal node index: 14
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.024437761332936167
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.017464853432605048
+Computed leaf score: 0.014988493617534182
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05127642818895317
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04252525111137183
+Computed leaf score: 0.04252525111137183
+Current gain: 0.007722847331232713
+Current score: 0.7357062207807498
+Current size: 9
+Internal node index: 29
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.018884408500436302
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.013508646880645436
+Computed leaf score: 0.013508646880645436
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.005553352832499874
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00426867721058157
+Computed leaf score: 0.004150205683488239
+Current gain: 0.002476359815070866
+Current score: 0.7381825805958206
+Current size: 11
+Internal node index: 5
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.07439665009358135
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0580789848397225
+Computed leaf score: 0.0580789848397225
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09378355716480523
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.057645626470633614
+Computed leaf score: 0.046016465382197766
+Current gain: 0.00022424027634451726
+Current score: 0.7384068208721651
+Current size: 13
+Internal node index: 12
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05285751225160478
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.034956434769061295
+Computed leaf score: 0.03143260061895431
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.040926044913200454
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.026738349343290963
+Computed leaf score: 0.026738349343290963
+Current gain: 0.011629161088435848
+Current score: 0.750035981960601
+Current size: 15
+Internal node index: 25
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.046759932616444615
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.032700779543100265
+Computed leaf score: 0.032700779543100265
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.006097579635160161
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004906519079758876
+Computed leaf score: 0.004906519079758876
+Current gain: 0.003523834150106986
+Current score: 0.753559816110708
+Current size: 17
+Internal node index: 60
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00072905767879222
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0004918709139584844
+Computed leaf score: 0.0003766798007093137
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004824295153707654
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0037790312037376626
+Computed leaf score: 0.0037790312037376626
+Current gain: 0.00011847152709333099
+Current score: 0.7536782876378013
+Current size: 19
+Internal node index: 121
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0003044444243178553
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00022711554054112004
+Computed leaf score: 0.00021879405960976533
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0004246132544743649
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00027231863386955934
+Computed leaf score: 0.00027231863386955934
+Current gain: 0.00011519111324917068
+Current score: 0.7537934787510505
+Current size: 21
+Internal node index: 243
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.135223755886656e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.076379623673273e-05
+Computed leaf score: 4.4689495832337365e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0002230921867589887
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00018605888375699658
+Computed leaf score: 0.00018605888375699658
+Current gain: 8.321480931354708e-06
+Current score: 0.7538018002319818
+Current size: 23
+Internal node index: 487
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.3013454457896524e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.101856600486079e-05
+Computed leaf score: 2.0644413521004623e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 4.833878310097004e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.0485659209011773e-05
+Computed leaf score: 3.0485659209011773e-05
+Current gain: 6.074300404395366e-06
+Current score: 0.7538078745323863
+Current size: 25
+Internal node index: 975
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.6469829572611866e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.2506090588803276e-05
+Computed leaf score: 1.2506090588803276e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.654362488528465e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 9.661476933006236e-06
+Computed leaf score: 8.547539524063737e-06
+Current gain: 3.7415248385616593e-07
+Current score: 0.7538082486848702
+Current size: 27
+Internal node index: 1952
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 5.890566137555362e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.832795033502689e-06
+Computed leaf score: 3.832795033502689e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0653058747729291e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.619100501922466e-06
+Computed leaf score: 6.0580394078753905e-06
+Current gain: 1.1139374089424984e-06
+Current score: 0.7538093626222792
+Current size: 29
+Internal node index: 3906
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 7.72639477417285e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 4.795515689836616e-06
+Computed leaf score: 4.630685934654261e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.926663973556446e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.9003804734959855e-06
+Computed leaf score: 1.7891672425008406e-06
+Current gain: 5.610610940470757e-07
+Current score: 0.7538099236833732
+Current size: 31
+Internal node index: 7813
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 6.6001226445184e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 4.272479391884911e-06
+Computed leaf score: 4.272479391884911e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.1262721296544485e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 7.005412646450669e-07
+Computed leaf score: 6.352174811251088e-07
+Current gain: 1.6482975518235448e-07
+Current score: 0.7538100885131284
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 7814
+Leaf node index: 15628
+Leaf node index: 30
+Leaf node index: 244
+Leaf node index: 488
+Leaf node index: 1951
+Leaf node index: 15627
+Leaf node index: 51
+Leaf node index: 26
+Leaf node index: 52
+Leaf node index: 976
+Leaf node index: 122
+Leaf node index: 3905
+Leaf node index: 1
+Leaf node index: 59
+Leaf node index: 11
+Leaf node index: 13
+Decision tree:
+(x[36] <= 0.2960400879383087
+    1
+    (x[30] <= 0.3940071761608124
+        (x[26] <= 0.5340406000614166
+            1
+            (x[18] <= 0.5346898138523102
+                (x[10] <= 0.3673270344734192
+                    0
+                    1)
+                1))
+        (x[44] <= 0.33240093290805817
+            0
+            (x[9] <= 0.18799001723527908
+                (x[8] <= 0.18749286234378815
+                    0
+                    (x[45] <= 0.16367512941360474
+                        (x[10] <= 0.2251906618475914
+                            (x[21] <= 0.385384276509285
+                                (x[47] <= 0.137053981423378
+                                    (x[4] <= 0.07116285711526871
+                                        0
+                                        (x[30] <= 0.5850640535354614
+                                            1
+                                            (x[27] <= 0.8658581972122192
+                                                (x[3] <= 0.24897149950265884
+                                                    0
+                                                    1)
+                                                1)))
+                                    1)
+                                0)
+                            1)
+                        1))
+                1))))
+Node count: 33
+DTExtract Relative training score: 0.782258064516
+DTExtract Relative CV score: 0.730158730159
+DTExtract Relative test score: 0.666666666667
+DTExtract Training score: 0.782258064516
+DTExtract CV score: 0.603174603175
+DTExtract Test score: 0.666666666667
+Training greedy decision tree, best of: 1
+Done!
+Node count: 27
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.7142857142857143
+GreedyTree Test score: 0.5714285714285714
+MLP Training score: 1.0
+MLP CV score: 0.6825396825396826
+MLP Test score: 0.7142857142857143
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7777777777777778
+Random Forest Test score: 0.7619047619047619
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000004
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6520000000000004
+Computed leaf score: 0.5986666666666669
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.43266343375088906
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.2731548478413946
+Computed leaf score: 0.25036790699718114
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.5673365662491114
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.42777177095183005
+Computed leaf score: 0.42777177095183005
+Current gain: 0.053333333333333455
+Current score: 0.6520000000000004
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.19518983223497954
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.12505161918521024
+Computed leaf score: 0.10995693882570515
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.23747360151590952
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.18253804169856247
+Computed leaf score: 0.16781467840457606
+Current gain: 0.022786940844213455
+Current score: 0.6747869408442138
+Current size: 5
+Internal node index: 3
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.07247550833594311
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04135935675704487
+Computed leaf score: 0.04155262477927405
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.12271432389903644
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.08532735988446334
+Computed leaf score: 0.08287307340648262
+Current gain: 0.015094680359505092
+Current score: 0.6898816212037189
+Current size: 7
+Internal node index: 4
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.19908893115370657
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.15648389988681338
+Computed leaf score: 0.15648389988681338
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03838467036220296
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.031065993213142927
+Computed leaf score: 0.028071988924891093
+Current gain: 0.014723363293986408
+Current score: 0.7046049844977053
+Current size: 9
+Internal node index: 10
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.026233563083646282
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.023522761565002832
+Computed leaf score: 0.023522761565002832
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.012151107278556684
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008424767713132634
+Computed leaf score: 0.007055742959748581
+Current gain: 0.0029940042882518336
+Current score: 0.7075989887859571
+Current size: 11
+Internal node index: 8
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02561359197555348
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.015470609553234302
+Computed leaf score: 0.013523976563092238
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09710073192348297
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.07295501658517686
+Computed leaf score: 0.0710130019467072
+Current gain: 0.0024542864779807244
+Current score: 0.7100532752639378
+Current size: 13
+Internal node index: 17
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.007311294094247812
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004922938023460194
+Computed leaf score: 0.00481083151401506
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.018302297881305662
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.010700743494603378
+Computed leaf score: 0.010822758813812082
+Current gain: 0.001946632990142064
+Current score: 0.7119999082540799
+Current size: 15
+Internal node index: 18
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.006384811784286013
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0042565411895240084
+Computed leaf score: 0.0042565411895240084
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09071592013919695
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.06652500810207776
+Computed leaf score: 0.06652500810207776
+Current gain: 0.001942014638469658
+Current score: 0.7139419228925495
+Current size: 17
+Internal node index: 22
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.007539468860574773
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0055389964562356
+Computed leaf score: 0.0055389964562356
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004611638417981911
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0034064635780826384
+Computed leaf score: 0.003052904632704025
+Current gain: 0.001369024753384053
+Current score: 0.7153109476459336
+Current size: 19
+Internal node index: 46
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005971312091846381
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0004741221800926027
+Computed leaf score: 0.00046536425569122797
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0040145072087972725
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0029198849098652164
+Computed leaf score: 0.0029198849098652164
+Current gain: 0.0003535589453786134
+Current score: 0.7156645065913122
+Current size: 21
+Internal node index: 35
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0008184085031684936
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0004937731302449912
+Computed leaf score: 0.0004479422540675555
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.006492885591079318
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004415162201933936
+Computed leaf score: 0.004415162201933936
+Current gain: 0.00011210650944513349
+Current score: 0.7157766131007574
+Current size: 23
+Internal node index: 71
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005979167856752406
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003344347887876846
+Computed leaf score: 0.0002937764473617682
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00022049171749325303
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00017404146234134107
+Computed leaf score: 0.00017404146234134107
+Current gain: 4.5830876177435685e-05
+Current score: 0.7158224439769348
+Current size: 25
+Internal node index: 143
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0004398430007572646
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00026302611445284425
+Computed leaf score: 0.00025129696776598386
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00015807378491797597
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00010085107477766866
+Computed leaf score: 0.00010085107477766866
+Current gain: 4.065834142591635e-05
+Current score: 0.7158631023183608
+Current size: 27
+Internal node index: 287
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00016212318136574376
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00011348622695602062
+Computed leaf score: 0.00011510745876967806
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0002777198193915209
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00016366954689473633
+Computed leaf score: 0.00013885990969576045
+Current gain: 1.1729146686860394e-05
+Current score: 0.7158748314650477
+Current size: 29
+Internal node index: 576
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00019562423153685152
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00010863665658013155
+Computed leaf score: 0.00010863665658013155
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.209558785466933e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.237698505127903e-05
+Computed leaf score: 5.237698505127903e-05
+Current gain: 2.4809637198975888e-05
+Current score: 0.7158996411022467
+Current size: 31
+Internal node index: 93
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0004021859257360959
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003724241672316248
+Computed leaf score: 0.0003724241672316248
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0001949452834485423
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00012203574743878748
+Computed leaf score: 0.00010475059897301673
+Current gain: 8.757924401374753e-06
+Current score: 0.715908399026648
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 188
+Leaf node index: 94
+Leaf node index: 187
+Leaf node index: 1154
+Leaf node index: 2
+Leaf node index: 45
+Leaf node index: 288
+Leaf node index: 37
+Leaf node index: 72
+Leaf node index: 21
+Leaf node index: 144
+Leaf node index: 38
+Leaf node index: 1153
+Leaf node index: 9
+Leaf node index: 575
+Leaf node index: 36
+Leaf node index: 7
+Decision tree:
+(x[10] <= 0.19756847620010376
+    (x[30] <= 0.49454936385154724
+        (x[31] <= 0.28946156799793243
+            0
+            (x[11] <= 0.1321151852607727
+                (x[30] <= 0.3510478734970093
+                    (x[26] <= 0.37556909024715424
+                        (x[37] <= 0.49591025710105896
+                            (x[25] <= 0.6865968108177185
+                                (x[37] <= 0.2754356861114502
+                                    1
+                                    (x[23] <= 0.8276890516281128
+                                        0
+                                        1))
+                                0)
+                            0)
+                        1)
+                    0)
+                (x[23] <= 0.44750189781188965
+                    0
+                    1)))
+        (x[43] <= 0.3495710492134094
+            0
+            (x[37] <= 0.6813436150550842
+                1
+                (x[31] <= 0.6922495067119598
+                    0
+                    (x[23] <= 0.3711087107658386
+                        (x[26] <= 0.7114217877388
+                            0
+                            1)
+                        1)))))
+    1)
+Node count: 33
+DTExtract Relative training score: 0.774193548387
+DTExtract Relative CV score: 0.761904761905
+DTExtract Relative test score: 0.809523809524
+DTExtract Training score: 0.774193548387
+DTExtract CV score: 0.68253968254
+DTExtract Test score: 0.809523809524
+Training greedy decision tree, best of: 1
+Done!
+Node count: 29
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.6666666666666666
+GreedyTree Test score: 0.6666666666666666
+MLP Training score: 1.0
+MLP CV score: 0.7301587301587301
+MLP Test score: 0.7142857142857143
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7142857142857143
+Random Forest Test score: 0.8571428571428571
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.642
+Computed leaf score: 0.5713333333333334
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.6100806254965484
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.4514596628674458
+Computed leaf score: 0.33147713985312466
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.38991937450345177
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.3033572733636855
+Computed leaf score: 0.3033572733636855
+Current gain: 0.07066666666666666
+Current score: 0.642
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2904255520957246
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.1992319287376671
+Computed leaf score: 0.1992319287376671
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.31965507340082366
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.24272475240235877
+Computed leaf score: 0.24272475240235877
+Current gain: 0.11998252301432116
+Current score: 0.7619825230143211
+Current size: 5
+Internal node index: 4
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.11667805260691462
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.06852890956446119
+Computed leaf score: 0.07195146577426402
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.20297702079390906
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.17158324157778446
+Computed leaf score: 0.17158324157778446
+Current gain: 0.0
+Current score: 0.7619825230143211
+Current size: 7
+Internal node index: 10
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.050612133187999564
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.038802635444133
+Computed leaf score: 0.03701434007149035
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.15236488760590947
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.13702682225358123
+Computed leaf score: 0.13702682225358123
+Current gain: 0.0
+Current score: 0.7619825230143211
+Current size: 9
+Internal node index: 21
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.048307507150330393
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03587637531031204
+Computed leaf score: 0.03587637531031204
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0023046260376691765
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.002103355363712735
+Computed leaf score: 0.0020219252437150906
+Current gain: 0.001788295372642655
+Current score: 0.7637708183869638
+Current size: 11
+Internal node index: 44
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00025249451730261825
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00017657783243363103
+Computed leaf score: 0.00017657783243363103
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0020521315203665584
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0019440525936272532
+Computed leaf score: 0.0019413164182667641
+Current gain: 8.143011999764459e-05
+Current score: 0.7638522485069614
+Current size: 13
+Internal node index: 90
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 5.4816234654878345e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.82251876326685e-05
+Computed leaf score: 3.190304856913919e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0019973152857116804
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.001885465629711826
+Computed leaf score: 0.001885465629711826
+Current gain: 2.7361753604890782e-06
+Current score: 0.7638549846823219
+Current size: 15
+Internal node index: 181
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 4.7046367558661706e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.258745059563301e-05
+Computed leaf score: 3.221107965516371e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 7.76986709621664e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.910001804235332e-06
+Computed leaf score: 7.003240209389932e-06
+Current gain: 6.322139063529306e-06
+Current score: 0.7638613068213854
+Current size: 17
+Internal node index: 363
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.429359243028326e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.5605882347944837e-05
+Computed leaf score: 2.5605882347944837e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.2752775128378449e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 7.668668777198241e-06
+Computed leaf score: 6.733465267783822e-06
+Current gain: 3.763709404692973e-07
+Current score: 0.763861683192326
+Current size: 19
+Internal node index: 728
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 6.609800472467076e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 4.071637091039718e-06
+Computed leaf score: 3.930628014293755e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 6.142974655911373e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.92331314690873e-06
+Computed leaf score: 3.7103566921704693e-06
+Current gain: 9.352035094144192e-07
+Current score: 0.7638626183958354
+Current size: 21
+Internal node index: 1458
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.045548091437259e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.726359388246366e-07
+Computed leaf score: 6.147822777651082e-07
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 5.097426564474112e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 3.3303186887897533e-06
+Computed leaf score: 3.218175304371323e-06
+Current gain: 2.1295645473826092e-07
+Current score: 0.76386283135229
+Current size: 23
+Internal node index: 1457
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.1418629627675845e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.2865456863023959e-06
+Computed leaf score: 1.0595082122490318e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 4.467937509699492e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.9488387564016647e-06
+Computed leaf score: 2.969689131446929e-06
+Current gain: 1.410090767459636e-07
+Current score: 0.7638629723613668
+Current size: 25
+Internal node index: 2915
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0571314257964917e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.279360669231161e-07
+Computed leaf score: 6.279360669231161e-07
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0847315369710939e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.826577139338084e-07
+Computed leaf score: 6.826577139338084e-07
+Current gain: 2.2703747405336402e-07
+Current score: 0.7638631993988408
+Current size: 27
+Internal node index: 2918
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.684503622822284e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.0758363137758323e-06
+Computed leaf score: 8.692038693762985e-07
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.4129229416518296e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.3753943673896734e-06
+Computed leaf score: 2.3753943673896734e-06
+Current gain: 1.1214338441843045e-07
+Current score: 0.7638633115422253
+Current size: 29
+Internal node index: 5837
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.440589928158998e-07
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.407604613973866e-07
+Computed leaf score: 5.255673995267003e-07
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.40444630006384e-07
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.289198204840176e-07
+Computed leaf score: 5.289198204840176e-07
+Current gain: 2.066324443995337e-07
+Current score: 0.7638635181746697
+Current size: 31
+Internal node index: 2917
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.7365136452108015e-07
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.379202877186244e-07
+Computed leaf score: 1.5853535717921243e-07
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 7.718967269161791e-07
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.073934484929017e-07
+Computed leaf score: 5.073934484929017e-07
+Current gain: 5.785366105952836e-08
+Current score: 0.7638635760283308
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 11675
+Leaf node index: 5838
+Leaf node index: 5836
+Leaf node index: 11676
+Leaf node index: 5832
+Leaf node index: 43
+Leaf node index: 2
+Leaf node index: 22
+Leaf node index: 727
+Leaf node index: 182
+Leaf node index: 89
+Leaf node index: 3
+Leaf node index: 5831
+Leaf node index: 5835
+Leaf node index: 2916
+Leaf node index: 364
+Leaf node index: 9
+Decision tree:
+(x[9] <= 0.22320038825273514
+    (x[36] <= 0.3028489053249359
+        1
+        (x[30] <= 0.3962159752845764
+            0
+            (x[36] <= 0.4342275559902191
+                (x[44] <= 0.38693808019161224
+                    0
+                    (x[13] <= 0.24955890327692032
+                        0
+                        (x[43] <= 0.2562197297811508
+                            (x[45] <= 0.4519554525613785
+                                (x[23] <= 0.7976341843605042
+                                    0
+                                    (x[18] <= 0.41193465888500214
+                                        (x[30] <= 0.49116626381874084
+                                            (x[9] <= 0.08524850755929947
+                                                0
+                                                1)
+                                            0)
+                                        (x[9] <= -0.03143325913697481
+                                            (x[24] <= 0.6074232459068298
+                                                1
+                                                0)
+                                            (x[10] <= 0.18831618130207062
+                                                (x[24] <= 0.7106073796749115
+                                                    1
+                                                    0)
+                                                1))))
+                                1)
+                            1)))
+                0)))
+    1)
+Node count: 33
+DTExtract Relative training score: 0.709677419355
+DTExtract Relative CV score: 0.730158730159
+DTExtract Relative test score: 0.571428571429
+DTExtract Training score: 0.709677419355
+DTExtract CV score: 0.603174603175
+DTExtract Test score: 0.571428571429
+Training greedy decision tree, best of: 1
+Done!
+Node count: 23
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.7142857142857143
+GreedyTree Test score: 0.6666666666666666
+MLP Training score: 1.0
+MLP CV score: 0.8095238095238095
+MLP Test score: 0.9047619047619048
+Random Forest Training score: 1.0
+Random Forest CV score: 0.8095238095238095
+Random Forest Test score: 0.8571428571428571
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000004
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.700666666666667
+Computed leaf score: 0.6186666666666669
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2644397696993762
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.17400136846218955
+Computed leaf score: 0.15178842780744192
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.7355602303006243
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.5271514983821142
+Computed leaf score: 0.5271514983821142
+Current gain: 0.08200000000000007
+Current score: 0.700666666666667
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2349597314635697
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.15319374491424745
+Computed leaf score: 0.15319374491424745
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.029480038235806454
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.022031415241559354
+Computed leaf score: 0.022031415241559354
+Current gain: 0.02221294065474763
+Current score: 0.7228796073214147
+Current size: 5
+Internal node index: 2
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.380047740425653
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.23892334614759386
+Computed leaf score: 0.23892334614759386
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3555124898749713
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.2950753665962262
+Computed leaf score: 0.2950753665962262
+Current gain: 0.0
+Current score: 0.7228796073214147
+Current size: 7
+Internal node index: 6
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.24420921331758064
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.18836670653896054
+Computed leaf score: 0.18836670653896054
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.11130327655739068
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.10581231491389274
+Computed leaf score: 0.10581231491389274
+Current gain: 0.0
+Current score: 0.7228796073214147
+Current size: 9
+Internal node index: 14
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.009585429385175554
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0077578075157354156
+Computed leaf score: 0.0077578075157354156
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.10171784717221512
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.09737788569286727
+Computed leaf score: 0.09737788569286727
+Current gain: 0.0
+Current score: 0.7228796073214147
+Current size: 11
+Internal node index: 30
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.008321030619691396
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0065514247745703585
+Computed leaf score: 0.0065514247745703585
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.09339681655252371
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.09146661567710489
+Computed leaf score: 0.09146661567710489
+Current gain: 0.0
+Current score: 0.7228796073214147
+Current size: 13
+Internal node index: 13
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.13330105381999213
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.11668285577709978
+Computed leaf score: 0.11668285577709978
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.11090815949758849
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.06891093643450165
+Computed leaf score: 0.06610126306056274
+Current gain: 0.0
+Current score: 0.7228796073214147
+Current size: 15
+Internal node index: 28
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.06838344768618349
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.04052858999534475
+Computed leaf score: 0.03710941761103557
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04252471181140501
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0342182181042439
+Computed leaf score: 0.0342182181042439
+Current gain: 0.0028096733739389063
+Current score: 0.7256892806953535
+Current size: 17
+Internal node index: 57
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04527011825676457
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.030119718680167364
+Computed leaf score: 0.02514000567192326
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.023113329429418905
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.015901970647440207
+Computed leaf score: 0.015901970647440207
+Current gain: 0.00341917238430918
+Current score: 0.7291084530796628
+Current size: 19
+Internal node index: 115
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0246240507498795
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.017499492066247697
+Computed leaf score: 0.017499492066247697
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02064606750688508
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.01277303376425957
+Computed leaf score: 0.01277303376425957
+Current gain: 0.0049797130082441035
+Current score: 0.7340881660879068
+Current size: 21
+Internal node index: 3
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.08746134549180506
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0690361553748648
+Computed leaf score: 0.0690361553748648
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.14749838597176465
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.09115400253055056
+Computed leaf score: 0.0846640735477929
+Current gain: 0.0
+Current score: 0.7340881660879068
+Current size: 23
+Internal node index: 8
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.01623008007675585
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.011144654986039016
+Computed leaf score: 0.011144654986039016
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.13126830589500882
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.08261152050992554
+Computed leaf score: 0.07998615439202536
+Current gain: 0.006489928982757659
+Current score: 0.7405780950706645
+Current size: 25
+Internal node index: 18
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.07199462126965112
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.05078020620219392
+Computed leaf score: 0.05078020620219392
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05927368462535769
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.038093221319229875
+Computed leaf score: 0.0287674949381736
+Current gain: 0.0026253661179001797
+Current score: 0.7432034611885647
+Current size: 27
+Internal node index: 38
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03492745875369644
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.021818019234809045
+Computed leaf score: 0.02065377060968583
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.024346225871661256
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.016522971958234104
+Computed leaf score: 0.016522971958234104
+Current gain: 0.009325726381056276
+Current score: 0.752529187569621
+Current size: 29
+Internal node index: 77
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0019954629851767947
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0015005881648529496
+Computed leaf score: 0.001434072732013723
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.032931995768519635
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.021142341283389605
+Computed leaf score: 0.020878885317241448
+Current gain: 0.0011642486251232133
+Current score: 0.7536934361947442
+Current size: 31
+Internal node index: 156
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.004833583093034512
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00267780503354112
+Computed leaf score: 0.002655248312440292
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02809841267548513
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.01920058199491484
+Computed leaf score: 0.01920058199491484
+Current gain: 0.00026345596614815725
+Current score: 0.7539568921608923
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 155
+Leaf node index: 313
+Leaf node index: 78
+Leaf node index: 61
+Leaf node index: 231
+Leaf node index: 5
+Leaf node index: 4
+Leaf node index: 29
+Leaf node index: 314
+Leaf node index: 62
+Leaf node index: 17
+Leaf node index: 116
+Leaf node index: 37
+Leaf node index: 58
+Leaf node index: 232
+Leaf node index: 7
+Leaf node index: 27
+Decision tree:
+(x[12] <= 0.18124613910913467
+    (x[10] <= 0.32648198306560516
+        (x[21] <= 0.525079220533371
+            0
+            (x[24] <= 0.5370672941207886
+                1
+                (x[11] <= 0.15022462606430054
+                    0
+                    (x[31] <= 0.3810650259256363
+                        (x[19] <= 0.24793224781751633
+                            1
+                            (x[39] <= 0.12045889347791672
+                                1
+                                0))
+                        1))))
+        1)
+    (x[31] <= 0.4051072895526886
+        1
+        (x[43] <= 0.32676081359386444
+            (x[36] <= 0.294354572892189
+                1
+                (x[21] <= 0.6827853322029114
+                    (x[45] <= 0.20482534170150757
+                        (x[18] <= 0.41374699771404266
+                            0
+                            1)
+                        1)
+                    1))
+            (x[44] <= 0.1885376200079918
+                1
+                (x[8] <= 0.10816102847456932
+                    1
+                    1)))))
+Node count: 33
+DTExtract Relative training score: 0.758064516129
+DTExtract Relative CV score: 0.809523809524
+DTExtract Relative test score: 0.904761904762
+DTExtract Training score: 0.758064516129
+DTExtract CV score: 0.634920634921
+DTExtract Test score: 0.761904761905
+Training greedy decision tree, best of: 1
+Done!
+Node count: 31
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.7142857142857143
+GreedyTree Test score: 0.8095238095238095
+MLP Training score: 1.0
+MLP CV score: 0.6984126984126984
+MLP Test score: 0.8571428571428571
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7301587301587301
+Random Forest Test score: 0.7619047619047619
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000007
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6966666666666671
+Computed leaf score: 0.5380000000000004
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.4868575545386822
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.3161328387471176
+Computed leaf score: 0.3161328387471176
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.5131424454613184
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.37596236504132596
+Computed leaf score: 0.37596236504132596
+Current gain: 0.15866666666666673
+Current score: 0.6966666666666671
+Current size: 3
+Internal node index: 2
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.2035197755314459
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.13798640781032034
+Computed leaf score: 0.12184050561815894
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3096226699298724
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.24295058833830654
+Computed leaf score: 0.24295058833830654
+Current gain: 0.0
+Current score: 0.6966666666666671
+Current size: 5
+Internal node index: 5
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.15233629094807394
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.1050104832268723
+Computed leaf score: 0.1050104832268723
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05118348458337199
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.032211472964468774
+Computed leaf score: 0.032962164071691565
+Current gain: 0.0161459021921614
+Current score: 0.7128125688588285
+Current size: 7
+Internal node index: 11
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03929248160469629
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03724927256125208
+Computed leaf score: 0.03724927256125208
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.11304380934337763
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.07317702591494644
+Computed leaf score: 0.06850454846208684
+Current gain: 0.0
+Current score: 0.7128125688588285
+Current size: 9
+Internal node index: 24
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.06658193625716263
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.046918071082547266
+Computed leaf score: 0.046918071082547266
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04646187308621497
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.02790809843378646
+Computed leaf score: 0.026235471002682722
+Current gain: 0.004672477452859605
+Current score: 0.7174850463116881
+Current size: 11
+Internal node index: 50
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.015184199757494124
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.009221870652718097
+Computed leaf score: 0.008533520263711698
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03127767332872086
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.020330487663668562
+Computed leaf score: 0.019162787859396315
+Current gain: 0.001672627431103739
+Current score: 0.7191576737427918
+Current size: 13
+Internal node index: 102
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.02433667222822222
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.015494347985301481
+Computed leaf score: 0.016435365978126074
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.006941001100498644
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0042710293438401655
+Computed leaf score: 0.0036926125854652788
+Current gain: 0.0011676998042722472
+Current score: 0.720325373547064
+Current size: 15
+Internal node index: 101
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0072892238126974805
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.004091684300194186
+Computed leaf score: 0.0037126446619339167
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.007894975944796642
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.005294897200310281
+Computed leaf score: 0.0053264771040894675
+Current gain: 0.000688350389006399
+Current score: 0.7210137239360704
+Current size: 17
+Internal node index: 206
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0029909816548834315
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0017586972130714577
+Computed leaf score: 0.0017347693598323902
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.003950019445615211
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.002493778943331737
+Computed leaf score: 0.0025780460248381945
+Current gain: 0.0005784167583748868
+Current score: 0.7215921406944453
+Current size: 19
+Internal node index: 203
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0014970859790918879
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0010359834975315863
+Computed leaf score: 0.0010359834975315863
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.005792137833605592
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0034328070227169142
+Computed leaf score: 0.003062110201366156
+Current gain: 0.0003790396382602696
+Current score: 0.7219711803327056
+Current size: 21
+Internal node index: 408
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.002738578825706385
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0016614044875952068
+Computed leaf score: 0.0016614044875952068
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0030535590078992073
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.001740528634502548
+Computed leaf score: 0.0018585995828079842
+Current gain: 0.00037069682135075846
+Current score: 0.7223418771540563
+Current size: 23
+Internal node index: 413
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0019328273879910532
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0011455223652826975
+Computed leaf score: 0.0010037816901633536
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0010581542668923782
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0007766852318990056
+Computed leaf score: 0.0007766852318990056
+Current gain: 2.3927853239067483e-05
+Current score: 0.7223658050072953
+Current size: 25
+Internal node index: 827
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0014062939097129838
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0008803399874803279
+Computed leaf score: 0.0007987749407169747
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005265334782780697
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003429488055184494
+Computed leaf score: 0.0003345242698660003
+Current gain: 0.0001417406751193439
+Current score: 0.7225075456824146
+Current size: 27
+Internal node index: 1655
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.000859254386811626
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.000557369678911808
+Computed leaf score: 0.000557369678911808
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.000547039522901358
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003300471788171527
+Computed leaf score: 0.00030670682584002805
+Current gain: 8.15650467633532e-05
+Current score: 0.722589110729178
+Current size: 29
+Internal node index: 3312
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00045060661920208147
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0002763720597772766
+Computed leaf score: 0.0002817793392077016
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 9.643290369927679e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.210278998233425e-05
+Computed leaf score: 6.210278998233425e-05
+Current gain: 2.3340352977124638e-05
+Current score: 0.7226124510821551
+Current size: 31
+Internal node index: 1656
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0004244202444627577
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00027870262719721086
+Computed leaf score: 0.0002990747989314233
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00010211323381531204
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.215292164891994e-05
+Computed leaf score: 5.235005120264998e-05
+Current gain: 8.424535652449086e-06
+Current score: 0.7226208756178075
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 3314
+Leaf node index: 3311
+Leaf node index: 49
+Leaf node index: 828
+Leaf node index: 6626
+Leaf node index: 1
+Leaf node index: 407
+Leaf node index: 817
+Leaf node index: 23
+Leaf node index: 6
+Leaf node index: 6625
+Leaf node index: 3313
+Leaf node index: 204
+Leaf node index: 414
+Leaf node index: 818
+Leaf node index: 12
+Leaf node index: 205
+Decision tree:
+(x[10] <= 0.20036780089139938
+    0
+    (x[29] <= 0.510719507932663
+        (x[30] <= 0.4547538459300995
+            (x[24] <= 0.39190155267715454
+                1
+                (x[36] <= 0.3997790068387985
+                    1
+                    (x[30] <= 0.2396351471543312
+                        (x[23] <= 0.7633949220180511
+                            (x[23] <= 0.5466472208499908
+                                0
+                                (x[29] <= 0.34758424758911133
+                                    0
+                                    1))
+                            1)
+                        (x[23] <= 0.9149828851222992
+                            0
+                            (x[29] <= 0.3052121698856354
+                                (x[39] <= 0.4153776913881302
+                                    (x[36] <= 0.6090089380741119
+                                        (x[24] <= 0.7959202229976654
+                                            1
+                                            (x[10] <= 0.4458354413509369
+                                                0
+                                                1))
+                                        (x[20] <= 0.93952476978302
+                                            0
+                                            1))
+                                    0)
+                                1)))))
+            0)
+        1))
+Node count: 33
+DTExtract Relative training score: 0.766129032258
+DTExtract Relative CV score: 0.809523809524
+DTExtract Relative test score: 0.714285714286
+DTExtract Training score: 0.766129032258
+DTExtract CV score: 0.761904761905
+DTExtract Test score: 0.857142857143
+Training greedy decision tree, best of: 1
+Done!
+Node count: 31
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.7142857142857143
+GreedyTree Test score: 0.8571428571428571
+MLP Training score: 1.0
+MLP CV score: 0.7619047619047619
+MLP Test score: 0.8571428571428571
+Random Forest Training score: 1.0
+Random Forest CV score: 0.8571428571428571
+Random Forest Test score: 0.8571428571428571
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.0000000000000007
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6606666666666671
+Computed leaf score: 0.5133333333333336
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.6351734411078092
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.4344586337177415
+Computed leaf score: 0.40227651270161247
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.36482655889219157
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.2626751224023779
+Computed leaf score: 0.2626751224023779
+Current gain: 0.14733333333333343
+Current score: 0.6606666666666671
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.13994665313775165
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.09721627504635814
+Computed leaf score: 0.0849942673389945
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.49522678797005754
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.3565632873384414
+Computed leaf score: 0.3565632873384414
+Current gain: 0.03218212101612905
+Current score: 0.6928487876827961
+Current size: 5
+Internal node index: 3
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.12421416259441037
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.08694991381608726
+Computed leaf score: 0.08512810609803591
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.01573249054334127
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.015365399097329974
+Computed leaf score: 0.01488293605400084
+Current gain: 0.012222007707363647
+Current score: 0.7050707953901598
+Current size: 7
+Internal node index: 7
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.05094674711733681
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.030568048270402083
+Computed leaf score: 0.02673005998756271
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.07326741547707354
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.06076310990231965
+Computed leaf score: 0.06076310990231965
+Current gain: 0.0018218077180513492
+Current score: 0.7068926031082112
+Current size: 9
+Internal node index: 15
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.029065389230796317
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.018698733738478964
+Computed leaf score: 0.01614097948616889
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.021881357886540498
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.014354170773570566
+Computed leaf score: 0.014354170773570566
+Current gain: 0.003837988282839374
+Current score: 0.7107305913910505
+Current size: 11
+Internal node index: 31
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.013784414343146223
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.010090191299183036
+Computed leaf score: 0.009612331601953968
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.015280974887650092
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008883340068020587
+Computed leaf score: 0.008333224972065184
+Current gain: 0.0025577542523100745
+Current score: 0.7132883456433606
+Current size: 13
+Internal node index: 64
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.011770415365971957
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.007164259486088264
+Computed leaf score: 0.007164259486088264
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.003510559521678137
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0022888848081341453
+Computed leaf score: 0.0021110164590357862
+Current gain: 0.0005501150959554037
+Current score: 0.713838460739316
+Current size: 15
+Internal node index: 8
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.014672109365091656
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.014623202333874683
+Computed leaf score: 0.01452538827144074
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0010603811782496082
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0008108381409682005
+Computed leaf score: 0.0007528706365572217
+Current gain: 0.00048246304332913437
+Current score: 0.7143209237826451
+Current size: 17
+Internal node index: 63
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0017026649503016772
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0010670033688557178
+Computed leaf score: 0.0009398710525665259
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.01208174939284455
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008964658049490655
+Computed leaf score: 0.008964658049490655
+Current gain: 0.0004778596972290685
+Current score: 0.7147987834798741
+Current size: 19
+Internal node index: 130
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0010798986931778852
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0006551385405279171
+Computed leaf score: 0.0006277811069674106
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0024306608285002513
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0016090974684671664
+Computed leaf score: 0.00167553553111284
+Current gain: 0.00017786834909835902
+Current score: 0.7149766518289725
+Current size: 21
+Internal node index: 127
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0010718407814989065
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.000688121781722298
+Computed leaf score: 0.000688121781722298
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0006308241688027705
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00037681230349818825
+Computed leaf score: 0.0003763917540523197
+Current gain: 0.00012713231628919196
+Current score: 0.7151037841452618
+Current size: 23
+Internal node index: 17
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00016922893429454809
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00012748579716855956
+Computed leaf score: 0.00010762960221133258
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.014502880430797107
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.014502880430797107
+Computed leaf score: 0.014493211843843242
+Current gain: 9.781406243394332e-05
+Current score: 0.7152015982076957
+Current size: 25
+Internal node index: 18
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0009541098250874997
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0007041330509145748
+Computed leaf score: 0.0007041330509145748
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00010627135316210863
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 9.210183940716082e-05
+Computed leaf score: 8.211233220992259e-05
+Current gain: 5.796750441097872e-05
+Current score: 0.7152595657121067
+Current size: 27
+Internal node index: 261
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005179472872386175
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0002869427971301941
+Computed leaf score: 0.0002669155020236342
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005619514059392679
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00036302060823676703
+Computed leaf score: 0.00038025378468557123
+Current gain: 2.7357433560506496e-05
+Current score: 0.7152869231456672
+Current size: 29
+Internal node index: 523
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00023700062739248469
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00014172637518070584
+Computed leaf score: 0.00014172637518070584
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0002809466598461328
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00016519663598952607
+Computed leaf score: 0.00016276176493752625
+Current gain: 2.0027295106559892e-05
+Current score: 0.7153069504407737
+Current size: 31
+Internal node index: 35
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0001460532399672578
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00011022151176195723
+Computed leaf score: 0.0001058399145629395
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 2.317569432729029e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.2557675811895884e-05
+Computed leaf score: 2.2001459148040916e-05
+Current gain: 1.985619495722698e-05
+Current score: 0.715326806635731
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 38
+Leaf node index: 36
+Leaf node index: 71
+Leaf node index: 1048
+Leaf node index: 72
+Leaf node index: 256
+Leaf node index: 2
+Leaf node index: 128
+Leaf node index: 255
+Leaf node index: 1047
+Leaf node index: 32
+Leaf node index: 4
+Leaf node index: 37
+Leaf node index: 129
+Leaf node index: 16
+Leaf node index: 524
+Leaf node index: 262
+Decision tree:
+(x[35] <= 0.4408790320158005
+    (x[22] <= 0.5175460278987885
+        (x[44] <= 0.4527035355567932
+            (x[30] <= 0.43261291086673737
+                (x[10] <= 0.29680071771144867
+                    (x[31] <= 0.34874215722084045
+                        (x[30] <= 0.15251873433589935
+                            (x[35] <= 0.2932560294866562
+                                1
+                                0)
+                            0)
+                        (x[35] <= 0.2900591492652893
+                            1
+                            (x[30] <= 0.23922193050384521
+                                (x[40] <= 0.2604339122772217
+                                    (x[10] <= 0.1873258724808693
+                                        0
+                                        1)
+                                    1)
+                                0)))
+                    1)
+                0)
+            (x[36] <= 0.45776984095573425
+                (x[13] <= 0.2492639720439911
+                    (x[16] <= 0.29729439318180084
+                        0
+                        1)
+                    1)
+                (x[8] <= 0.17268574982881546
+                    0
+                    1)))
+        1)
+    0)
+Node count: 33
+DTExtract Relative training score: 0.677419354839
+DTExtract Relative CV score: 0.714285714286
+DTExtract Relative test score: 0.714285714286
+DTExtract Training score: 0.677419354839
+DTExtract CV score: 0.698412698413
+DTExtract Test score: 0.619047619048
+Training greedy decision tree, best of: 1
+Done!
+Node count: 27
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.6825396825396826
+GreedyTree Test score: 0.7619047619047619
+MLP Training score: 1.0
+MLP CV score: 0.7936507936507936
+MLP Test score: 0.8095238095238095
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7936507936507936
+Random Forest Test score: 0.9047619047619048
+Parsing CSV...
+Reading file: ../tmp/sonar.all-data
+Done!
+Rows read: 208
+Columns: 61
+Column names:
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+11: 11
+12: 12
+13: 13
+14: 14
+15: 15
+16: 16
+17: 17
+18: 18
+19: 19
+20: 20
+21: 21
+22: 22
+23: 23
+24: 24
+25: 25
+26: 26
+27: 27
+28: 28
+29: 29
+30: 30
+31: 31
+32: 32
+33: 33
+34: 34
+35: 35
+36: 36
+37: 37
+38: 38
+39: 39
+40: 40
+41: 41
+42: 42
+43: 43
+44: 44
+45: 45
+46: 46
+47: 47
+48: 48
+49: 49
+50: 50
+51: 51
+52: 52
+53: 53
+54: 54
+55: 55
+56: 56
+57: 57
+58: 58
+59: 59
+60: 60
+
+Done!
+Splitting into training and test...
+Done!
+Constructing data matrices...
+Done!
+Training random forest...
+Done!
+Fitting Gaussian mixture with 20 components...
+Done!
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.9999999999999999
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.6393333333333332
+Computed leaf score: 0.5366666666666665
+Internal node index: 0
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.39486618223760706
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.275353351080358
+Computed leaf score: 0.24271108001538247
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.6051338177623928
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.3973712069973046
+Computed leaf score: 0.3993883197231793
+Current gain: 0.10266666666666668
+Current score: 0.6393333333333332
+Current size: 3
+Internal node index: 1
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.3439344197370416
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.239836935363297
+Computed leaf score: 0.239836935363297
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.050931762500565456
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.042103590333800775
+Computed leaf score: 0.040202137867113
+Current gain: 0.03264227106497555
+Current score: 0.6719756043983087
+Current size: 5
+Internal node index: 4
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.04458846742887759
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03926757698236487
+Computed leaf score: 0.03926757698236487
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.006343295071687879
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00435572928255901
+Computed leaf score: 0.003941300671208735
+Current gain: 0.0019014524666877766
+Current score: 0.6738770568649965
+Current size: 7
+Internal node index: 10
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.005742026004316804
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0039007496655992153
+Computed leaf score: 0.003805049232193935
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0006012690673710755
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0005307201634662026
+Computed leaf score: 0.0005219015504780935
+Current gain: 0.00041442861135027476
+Current score: 0.6742914854763469
+Current size: 9
+Internal node index: 21
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0014015393527194526
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0008493328477479883
+Computed leaf score: 0.0007231943060032375
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00434048665159735
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0031540869668274076
+Computed leaf score: 0.0031540869668274076
+Current gain: 9.570043340528019e-05
+Current score: 0.6743871859097521
+Current size: 11
+Internal node index: 43
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0006055199413203004
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.0003552383655745762
+Computed leaf score: 0.00034474268659169104
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0007960194113991523
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.000496716112713071
+Computed leaf score: 0.000496716112713071
+Current gain: 0.00012613854174475076
+Current score: 0.6745133244514968
+Current size: 13
+Internal node index: 87
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0004944119981107888
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00026928973497100965
+Computed leaf score: 0.00028478131091181437
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00011110794320951138
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.38500313643992e-05
+Computed leaf score: 6.38500313643992e-05
+Current gain: 1.0495678982885175e-05
+Current score: 0.6745238201304797
+Current size: 15
+Internal node index: 22
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 9.519908585097583e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.746441883972487e-05
+Computed leaf score: 5.762717996845736e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005060699815200996
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.000477730062554974
+Computed leaf score: 0.000477730062554974
+Current gain: 8.81861298810912e-06
+Current score: 0.6745326387434678
+Current size: 17
+Internal node index: 45
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.788523689871059e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.432011301023428e-05
+Computed leaf score: 1.432011301023428e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 7.731384895226524e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 5.113022544043141e-05
+Computed leaf score: 5.113022544043141e-05
+Current gain: 9.837238871267507e-06
+Current score: 0.6745424759823391
+Current size: 19
+Internal node index: 9
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.012633694231238874
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.008860430887508864
+Computed leaf score: 0.008860430887508864
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.03195477319763872
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.03061267272333789
+Computed leaf score: 0.03061267272333789
+Current gain: 0.0
+Current score: 0.6745424759823391
+Current size: 21
+Internal node index: 88
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 7.760061285439403e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 7.516912698495635e-05
+Computed leaf score: 7.52725944687622e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0007184187985447582
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00044398281750066053
+Computed leaf score: 0.0004348828460524269
+Current gain: 0.0
+Current score: 0.6745424759823391
+Current size: 23
+Internal node index: 178
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.0005300686529952277
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00032369525742908574
+Computed leaf score: 0.00032369525742908574
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00018835014554953027
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 0.00010974535147352631
+Computed leaf score: 0.00010459711416183915
+Current gain: 9.099971448233639e-06
+Current score: 0.6745515759537873
+Current size: 25
+Internal node index: 358
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 0.00010172077691367153
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 6.191404621478808e-05
+Computed leaf score: 6.204967391733963e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 8.662936863585872e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 4.885896391062432e-05
+Computed leaf score: 4.810817604911355e-05
+Current gain: 5.148237311687159e-06
+Current score: 0.674556724191099
+Current size: 27
+Internal node index: 718
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 4.7380705791760956e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.8238900651889528e-05
+Computed leaf score: 2.7386047947637832e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.924866284409778e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.4778989142240397e-05
+Computed leaf score: 2.4778989142240397e-05
+Current gain: 7.507878615107706e-07
+Current score: 0.6745574749789606
+Current size: 29
+Internal node index: 1437
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 1.2875961011887447e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 7.107530478561872e-06
+Computed leaf score: 7.468057386894718e-06
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.45047447798735e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.0610834215177775e-05
+Computed leaf score: 2.0058758298699796e-05
+Current gain: 8.528527042516953e-07
+Current score: 0.6745583278316648
+Current size: 31
+Internal node index: 2876
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.064380553751123e-05
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 1.8468000137273436e-05
+Computed leaf score: 1.7793836415448187e-05
+Sampling 1500 points
+Done! Sampled 1500 points
+Generating internal node with number of samples 1500...
+Done!
+Generating leaf with number of samples 1500...
+Done!
+Current mass: 3.860939242362263e-06
+Sampling 1500 test points
+Done! Sampled 1500 test points
+Computed internal score: 2.4426875606678585e-06
+Computed leaf score: 2.4426875606678585e-06
+Current gain: 5.520759164779795e-07
+Current score: 0.6745588799075812
+Current size: 33
+Reached maximum size, ending!
+Leaf node index: 5753
+Leaf node index: 44
+Leaf node index: 357
+Leaf node index: 3
+Leaf node index: 19
+Leaf node index: 5754
+Leaf node index: 176
+Leaf node index: 20
+Leaf node index: 46
+Leaf node index: 91
+Leaf node index: 92
+Leaf node index: 1438
+Leaf node index: 177
+Leaf node index: 717
+Leaf node index: 2875
+Leaf node index: 175
+Leaf node index: 2
+Decision tree:
+(x[11] <= 0.2051728442311287
+    (x[44] <= 0.37561027705669403
+        0
+        (x[39] <= 0.6559100449085236
+            (x[0] <= 0.028263967484235764
+                1
+                1)
+            (x[56] <= 0.0074110208079218864
+                (x[35] <= 0.5099709928035736
+                    (x[8] <= 0.08734611421823502
+                        (x[17] <= 0.5286529064178467
+                            0
+                            1)
+                        (x[37] <= 0.5689233243465424
+                            1
+                            (x[16] <= 0.39830681681632996
+                                1
+                                (x[31] <= 0.6505653262138367
+                                    0
+                                    (x[12] <= 0.22990623116493225
+                                        (x[36] <= 0.6325951218605042
+                                            1
+                                            (x[17] <= 0.5870412290096283
+                                                0
+                                                1))
+                                        1)))))
+                    0)
+                (x[20] <= 0.20429600030183792
+                    (x[35] <= 0.6091792583465576
+                        1
+                        0)
+                    1))))
+    1)
+Node count: 33
+DTExtract Relative training score: 0.774193548387
+DTExtract Relative CV score: 0.761904761905
+DTExtract Relative test score: 0.571428571429
+DTExtract Training score: 0.774193548387
+DTExtract CV score: 0.793650793651
+DTExtract Test score: 0.666666666667
+Training greedy decision tree, best of: 1
+Done!
+Node count: 27
+GreedyTree Training score: 1.0
+GreedyTree CV score: 0.6825396825396826
+GreedyTree Test score: 1.0
+MLP Training score: 1.0
+MLP CV score: 0.7777777777777778
+MLP Test score: 0.8095238095238095
+Random Forest Training score: 1.0
+Random Forest CV score: 0.7619047619047619
+Random Forest Test score: 0.9047619047619048
+Averaged over 10 trials: rf train score: 1.0
+Averaged over 10 trials: rf cv score: 0.7761904761904761
+Averaged over 10 trials: rf test score: 0.838095238095238
+Averaged over 10 trials: extracted dt train score: 0.760483870968
+Averaged over 10 trials: extracted dt cv score: 0.688888888889
+Averaged over 10 trials: extracted dt test score: 0.704761904762
+Averaged over 10 trials: dtExtractRelTrainScore: 0.760483870968
+Averaged over 10 trials: dtExtractRelCvScore: 0.763492063492
+Averaged over 10 trials: dtExtractRelTestScore: 0.72380952381
+Averaged over 10 trials: trained dt train score: 1.0
+Averaged over 10 trials: trained dt cv score: 0.7047619047619048
+Averaged over 10 trials: trained dt test score: 0.757142857142857
+Averaged over 10 trials: mlp train score: 1.0
+Averaged over 10 trials: mlp cv score: 0.7507936507936508
+Averaged over 10 trials: mlp test score: 0.8095238095238095

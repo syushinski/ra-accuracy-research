@@ -19,11 +19,6 @@ Prerequisites
 
 DTExtract has been tested using Python 2.7. DTExtract depends on numpy, scipy, scikit-learn, and pandas.
 
-Setting Up DTExtract
-=====
-
-Run `setup.sh` to set up the datasets used in the examples that come with DTExtract.
-
 Using DTExtract
 =====
 
@@ -41,3 +36,8 @@ Finally, see `python/dtextract/examples/wine.py` for an example using a dataset 
 
     $ cd python
     $ python -m dtextract.examples.wine
+
+You can run all of the examples by doing
+
+    $ cd python
+    $ python -m dtextract.examples.all
