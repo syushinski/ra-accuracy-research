@@ -334,7 +334,7 @@ def runCsvCorels(path, hasHeader, dataTypes, isClassify, delim_whitespace,distTy
 #  nRepeats : int (default : 1) (number of repetitions to compute the average)
 def runCsv(path, hasHeader, dataTypes, isClassify, delim_whitespace, output, distType = "CategoricalGaussianMixture", nRepeats=10):
     #change outputs around for logs
-    setCurOutput('logs/dtextractrelmlp/' + output)
+    setCurOutput('logs/newfolder/' + output)
 
     # change names to corels or sklearn if using corels or expertsys respectively
     nVals = len(names)
